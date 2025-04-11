@@ -4,7 +4,7 @@
   tasks:
     - name: Copy WAR file
       copy:
-        src: "/var/snap/jenkins/4832/workspace/MavenWebappTest/target/MavenWebappTest.war"
+        src: "/var/snap/jenkins/4844/workspace/MavenWebappTest/target/MavenWebappTest.war"
         dest: "/opt/tomcat/webapps/MavenWebappTest.war"
         remote_src: no
         
